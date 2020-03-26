@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/matthew/bigdick/SteamLibrary/steamapps/common/Star Ruler/Mods/Wormholes/Game Data/Sub Systems'
+let g:netrw_dirhist_4='/home/matthew/bigdick/SteamLibrary/steamapps/common/Star Ruler/Mods/Wormholes/Game Data/scripts/server/include'
+let g:netrw_dirhist_3='/home/matthew/bigdick/SteamLibrary/steamapps/common/Star Ruler/Game Data/gui'
+let g:netrw_dirhist_2='/home/matthew/bigdick/SteamLibrary/steamapps/common/Star Ruler/Game Data/ShipSets/neumon'
+let g:netrw_dirhist_1='/home/matthew/bigdick/SteamLibrary/steamapps/common/Medieval II Total War/mods/botet/preferences'

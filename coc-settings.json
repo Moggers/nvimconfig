@@ -1,0 +1,27 @@
+{
+	"languageserver": {
+		"glsl": {
+			"command": "glslangValidator --stdin",
+			"filetypes": [
+				"glsl"
+			]
+		},
+		"rust-client": {
+			"trace.server": "verbose"
+		},
+		"rust": {
+			"racer_completion": true
+		},
+    "clangd": {
+      "command": "clangd",
+      "args": ["--background-index"],
+      "rootPatterns": ["compile_flags.txt", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["c", "cpp", "objc", "objcpp"]
+    },
+    "ccls": {
+      "command": "ccls",
+      "rootPatterns": ["compile_flags.txt", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["c", "cpp", "objc", "objcpp"]
+    }
+  }
+}
